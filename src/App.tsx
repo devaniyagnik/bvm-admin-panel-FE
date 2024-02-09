@@ -8,7 +8,6 @@ import {theme} from "./MUI";
 import { Provider} from 'react-redux';
 import store from './Redux/index'
 
-
 function App() {
     return (
         <ThemeProvider theme={theme}>
