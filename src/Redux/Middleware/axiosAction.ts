@@ -26,7 +26,7 @@ interface IAxiosProps {
 
 const getAxiosProps = ({
                            method,
-                           baseURL = process.env.REACT_APP_BACKEND_ORIGIN,
+                           baseURL = "http://localhost:4000/v1/",
                            url,
                            payload,
                            header = {}
